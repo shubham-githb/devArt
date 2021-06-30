@@ -65,7 +65,7 @@ function Header() {
                 <NotificationsActiveIcon />
                 </IconButton>
                 <IconButton>
-                <ExpandMoreIcon />
+                    <ExpandMoreIcon />
                 </IconButton>
             
         </div>
