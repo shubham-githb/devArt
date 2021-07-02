@@ -26,6 +26,7 @@
   padding: 10px;
   margin-left: 20px;
   border-radius: 999px;
+  width: 255px;
 }
 
 .header__input > input {

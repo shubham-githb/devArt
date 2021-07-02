@@ -1,9 +1,20 @@
 .app__body {
   display: flex;
+  --stripe: rgb(250, 244, 244);
+  --bg: white;
+
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
 }
 
 .app {
-  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#b71a1a 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
   opacity: 1;
   background-image: radial-gradient(brown 0.5px, #e5e5f7 0.5px);
   background-size: 10px 10px;
