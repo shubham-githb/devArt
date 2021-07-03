@@ -10,7 +10,10 @@ function Feed() {
         <div className="feed">
             <StoryReel />
             <MessageSender/>
+
             <Post/>
+            <Post/>
+            <Post/> 
            
         </div>
     )
