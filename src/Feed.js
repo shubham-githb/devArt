@@ -11,7 +11,14 @@ function Feed() {
             <StoryReel />
             <MessageSender/>
 
-            <Post/>
+            <Post
+                
+                profilePic="https://www.drewmaring.dev/assets/pictures/drew_fiver_cropped.png"
+                message="WHATSSUPP EVERYONE"
+                timestamp="TODYA'S DATE"
+                username="sshhuubham"
+                image='https://kinsta.com/wp-content/uploads/2020/04/code-review-tools.png'
+            />
             <Post/>
             <Post/> 
            
